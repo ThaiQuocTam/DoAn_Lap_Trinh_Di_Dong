@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ccc"
+        android:src="@drawable/banner11" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng ôn thi trắc nghiêm THPT"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#9A4E41"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spiner_category"
+        android:layout_width="259dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#A6D8E6"></Spinner>
+    
+    <TextView
+        android:id="@+id/txtDiemcao"
+        android:text="Điểm cao nhất : "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ff3D00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/btnBatdau"
+       android:backgroundTint="#66CDAA"
+       android:layout_marginTop="50dp"
+       android:layout_gravity="center"
+       android:text="Bắt đầu"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:textColor="#000"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/txtTongDiem"
+        android:text="Tổng điểm : "
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#4C1909"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
